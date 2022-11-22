@@ -27,7 +27,7 @@ export const Form = ()=>{
             amount: data.amount,
             installments: data.installments,
             mdr: data.mdr,
-            days: [1, 30, 60, 90]
+            days: [1, 15, 30, 90]
         }
         await setData(newData)
     }
@@ -67,11 +67,11 @@ export const Form = ()=>{
                 </div>
                 <div>
                     <span>15 dias:</span>
-                    <span className="value">R${responseData[30]}</span>
+                    <span className="value">R${responseData[15]}</span>
                 </div>
                 <div>
                     <span>30 dias:</span>
-                    <span className="value">R${responseData[60]}</span>
+                    <span className="value">R${responseData[30]}</span>
                 </div>
                 <div>
                     <span>90 dias</span>
