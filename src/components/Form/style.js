@@ -23,7 +23,6 @@ export const StyleForm = styled.form`
         color: var(--grey-2);
         margin-top: .5rem;
     }
-
     h2 {
         font-size: 1.5rem;
         font-weight: 600;
@@ -38,8 +37,6 @@ export const StyleResults = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
-
-
     h3{
         font-size: 1rem;
         font-weight: 600;
@@ -49,13 +46,11 @@ export const StyleResults = styled.div`
         border-bottom: solid 1px var(--blue-1);
         width: 100%;
     }
-
     div{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: start;
-
         span{
             margin-right: 1rem;
             font-size: 1rem;

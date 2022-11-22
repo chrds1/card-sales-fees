@@ -3,7 +3,6 @@ import {Container, StyleForm, StyleResults } from "./style"
 
 export const Form = ()=>{
 
-
     return(
         <Container>
             <StyleForm>

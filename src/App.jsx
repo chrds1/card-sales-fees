@@ -1,5 +1,5 @@
 import { Form } from './components/Form';
-import { GlobalStyle } from './styles/style';
+import { GlobalStyle } from './components/styles/style';
 
 function App() {
   return (
