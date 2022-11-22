@@ -28,6 +28,25 @@ export const StyleForm = styled.form`
         font-weight: 600;
         color: var(--grey-1);
     }
+    button{
+        width: 50%;
+        min-width: 140px;
+        font-weight: 500;
+        font-size: 1.2rem;
+        background-color: var(--blue-1);
+        border: solid 1.5px var(--blue-1);
+        color: var(--white);
+        margin: 1rem auto;
+        cursor: pointer;
+        box-sizing: border-box;
+
+        &:hover{
+            background-color: var(--blue-0);
+            color: var(--grey-0);
+            border: solid 1.5px var(--grey-2);
+            
+        }
+    }
 `
 
 export const StyleResults = styled.div`
