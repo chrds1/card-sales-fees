@@ -10,6 +10,10 @@ export const Container = styled.div`
         font-weight: 500;
         color: var(--grey-1);
     }
+    .erro{
+        color: var(--red-0);
+        font-family: "Roboto";
+    }
 `
 
 export const StyleInput = styled.input`

@@ -5,22 +5,28 @@ import { createContext, useState, useEffect } from "react";
 const FormContext = createContext({});
 
 const FormProvider = ({children})=>{
-    const [responseData, setResponseData] = useState({});
+    const [data, setData] = useState({})
+    const [responseData, setResponseData] = useState({1: 0.00, 15: 0.00, 30: 0.00, 90:0.00});
 
-    useEffect(()=>{
-        axios
-        .post("https://frontend-challenge-7bu3nxh76a-uc.a.run.app?timeout",
+    const fetchApi = async ()=>{
+        await axios
+        .post("https://frontend-challenge-7bu3nxh76a-uc.a.run.app?delay=5000",
+            data
         )
         .then((res)=>{
             setResponseData(res.data)
         })
         .catch((error)=>{
-
+            console.log(error)
         })
-    })
+    }
+    
+    useEffect(()=>{
+        fetchApi();
+    }, [data])
 
     return(
-        <FormContext.Provider value={{responseData}}>
+        <FormContext.Provider value={{responseData, setData}}>
             {children}
         </FormContext.Provider>
     )
