@@ -1,6 +1,6 @@
 # CARD SALES FEES
 
-Aplicação desenvolvida para ajudar os vendedores que trabalham com máquinas de cartão de crédito. Consiste em apresentar o valor final de uma venda realizada no cartão de crédito.
+Aplicação desenvolvida para ajudar os vendedores que trabalham com máquinas de cartão de crédito. Consiste em apresentar o valor final para antecipação do recebimento de uma venda realizada no cartão de crédito.
 
 ![Tela inicial](https://user-images.githubusercontent.com/99361423/203558228-f46f57b3-9544-4c46-8470-a0384b730ff2.jpg)
 
